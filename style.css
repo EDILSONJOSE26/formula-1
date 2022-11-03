@@ -1,0 +1,85 @@
+body {
+   background-color: gray;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container, .main{
+   background-image: url(imagens/fundo-f1.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   margin: auto;
+}
+
+.txt1 {
+   background-image: url(imagens/bandeira1.jpg);
+   background-repeat: no-repeat;
+   margin-right: 3%;
+   background-position: right;
+   text-indent: 2%;
+   margin-left: 3%;
+   border-left: 10px solid gray;                            /*borda cinza*/
+   border-bottom: 2px solid rgb(116, 116, 116);       /*linha baixo*/
+}
+
+.img{
+   text-align: center;
+   background-color: rgb(255, 255, 255);
+   margin-top: 30px;          /*margem do topo*/
+}
+
+.container{
+   background-color: rgb(255, 255, 255);
+   margin: auto;
+   border: 1px solid rgb(253, 0, 0);
+   width: 80%;
+}
+
+a:link{
+   color: black;
+   text-decoration: none;           /* tirando sublinhado links*/
+   
+}
+a:hover{
+  color: yellow;
+  text-decoration: underline;     /*sublinhado texto com mouse*/
+}
+
+.main {
+   /*width: 50%;*/
+   background-color: rgb(254, 254, 254);  /*cor fundo f1.jpg*/
+}
+
+.tx_mnr, .textof1{
+   text-indent: 3%;
+   text-align: justify;
+   line-height: 1.9;
+   font-size: 20px; 
+   margin-right: 3%;
+   margin-left: 3%;        /* teste texto com pequeno erro!!!!*/
+
+}
+
+th{
+   display: flex;
+   border-bottom: 5px dotted rgba(118, 118, 118, 0.219);
+   padding: 5px;
+   background-position: right;
+   border-left: 3;
+}
+
+td{
+   min-width: 120px;
+   height: 18px;
+   text-align: center;
+   border-bottom: 5px dotted rgba(118, 118, 118, 0.219);
+}
+
+.txt2{
+   margin-left: 3%;
+}
+
+header{
+   padding: 10px;
+   text-align: center;
+}
