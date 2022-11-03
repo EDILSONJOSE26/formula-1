@@ -31,7 +31,7 @@ body {
 .container{
    background-color: rgb(255, 255, 255);
    margin: auto;
-   border: 1px solid rgb(253, 0, 0);
+   border: 1px solid rgb(255, 255, 255);
    width: 80%;
 }
 
@@ -46,7 +46,6 @@ a:hover{
 }
 
 .main {
-   /*width: 50%;*/
    background-color: rgb(254, 254, 254);  /*cor fundo f1.jpg*/
 }
 
